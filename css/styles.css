@@ -23,6 +23,12 @@ body {
     color: var(--primary-text); 
 }
 
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .section-title {
         font-size: 36px;
         line-height: 1.16px;
@@ -43,6 +49,10 @@ body {
 }
 
 /* header */
+.header {
+color: var(--header-bg);
+}
+
 .header-nav {
         list-style: none;
         
