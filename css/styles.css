@@ -32,6 +32,9 @@ body {
 }
 
 .section-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 94px;
         font-size: 36px;
         line-height: 1.16px;
         text-align: center;
@@ -52,7 +55,13 @@ body {
 
 /* header */
 .header {
-color: var(--header-bg);
+background-color: var(--header-bg);
+border-bottom: 1px solid var(--secondary-bg);
+}
+
+.full-header {
+    display: flex;
+    align-items: center;
 }
 
 .main-nav {
@@ -71,10 +80,11 @@ margin-right: 50px;
 }
 
 .nav-item:last-child {
-margin-right: 0;
+margin-right: 325px;
 }
 
 .logo {
+    margin-right: 90px;
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -93,7 +103,6 @@ margin-right: 0;
 display: block;
     padding-top: 25px;
     padding-bottom: 25px;
-
     font-weight: 500;
     line-height: 1.4;
     letter-spacing: 0.02em;
@@ -141,16 +150,22 @@ font-family: 'Roboto';
 
 /* bg */
 .hero {
+    height: 600px;
     background: var(--primary-bg);
 }
 
+.hero-content {
+    text-align: center;
+}
+
 .hero-section-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     /* font */
     width: 696px;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36; 
-        text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         /* color */
@@ -158,6 +173,8 @@ font-family: 'Roboto';
 }
 
 .bg-section-button {
+    margin-top: 0;
+    margin-bottom: 295px;
     /* font */
     width: 136px;
         height: 30px;
@@ -166,8 +183,6 @@ font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
         line-height: 30px;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
         /* color */
         color: #FFFFFF;
@@ -186,9 +201,20 @@ font-family: 'Roboto';
 
 .site-benefits-list { 
     list-style: none;
+    display: flex;
+}
+
+.benefits-item {
+    margin-right: 30px;
+}
+
+.benefits-item:last-child {
+    margin-right: 0;
 }
 
 .benefits-title {
+    margin-top: 0;
+    margin-bottom: 10px;
     /* font */
             font-size: 14px;
             line-height: 1.4;
@@ -196,18 +222,47 @@ font-family: 'Roboto';
 }
 
 .benefits-text {
+    margin-top: 0;
+    margin-bottom: 115px;
     /* font */
             line-height: 1.7;
         /* color */
         color: var(--secondary-text);
 }
 
+.our-team {
+    height: 648px;
+    background-color: var(--selection-bg);
+}
+
 .what-we-do-list {
+    margin-top: 0;
+    margin-bottom: 190px;
     list-style: none;
+    display: flex;
+}
+
+.pic-item {
+    margin-right: 30px;
+}
+
+.pic-item:last-child {
+    margin-right: 0;
 }
 
 .our-team-list {
+    margin-top: 0;
+    margin-bottom: 185px;
     list-style: none;
+    display: flex;
+}
+
+.team-member {
+    margin-right: 30px;
+}
+
+.team-member:last-child {
+    margin-right: 0;
 }
 
 .team-names {
@@ -232,6 +287,7 @@ footer {
 }
 
 .footerlogo {
+    margin-bottom: 20px;
 font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -247,6 +303,8 @@ font-family: 'Raleway';
 }
 
 .footer-address {
+    margin-top: 0;
+    margin-bottom: 10px;
     /* font */
     font-style: normal;
         font-weight: 400;
@@ -259,6 +317,8 @@ font-family: 'Raleway';
 }
 
 .footer-info {
+    margin-top: 0;
+    margin-bottom: 10px;
     /* font */
     font-style: normal;
         font-weight: 400;
@@ -269,6 +329,10 @@ font-family: 'Raleway';
         color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-info:last-child {
+    margin-bottom: 0;
+}
+
 .footer-info:hover,
 .footer-info:focus {
     color: var(--accent-text);
@@ -276,7 +340,20 @@ font-family: 'Raleway';
 
 /* portfolio */
 .selection-button-list {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 94px;
     list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.button-items {
+    margin-right: 10px;
+}
+
+.button-items:last-child {
+    margin-right: 0;
 }
 
 .selection-button {
@@ -308,9 +385,21 @@ font-family: 'Raleway';
 
 .selection-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selection-item {
+    margin-right: 30px;
+}
+
+.selection-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 .selection-title {
+    margin-top: 0;
+    margin-bottom: 4px;
     /* font */
         font-size: 18px;
         line-height: 2;
@@ -318,6 +407,8 @@ font-family: 'Raleway';
 }
 
 .selection-description {
+    margin-top: 0;
+    margin-bottom: 50px;
     /* font */
         font-size: 16px;
         line-height: 30px;
