@@ -80,7 +80,6 @@ address {
 .section-title {
     margin-top: 0px;
     margin-bottom: 50px;
-    padding-top: 94px;
         font-size: 36px;
         line-height: 1.16px;
         text-align: center;
@@ -207,6 +206,8 @@ font-family: 'Roboto';
 .hero-section-title {
     margin-top: 0;
     margin-bottom: 30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     /* font */
     width: 696px;
         font-weight: 900;
@@ -220,7 +221,6 @@ font-family: 'Roboto';
 
 .bg-section-button {
     margin-top: 0;
-    margin-bottom: 295px;
     /* font */
     width: 136px;
         height: 30px;
@@ -246,6 +246,7 @@ font-family: 'Roboto';
 }
 
 .site-benefits-list { 
+    padding-top: 94px;
     list-style: none;
     display: flex;
 }
@@ -277,13 +278,20 @@ font-family: 'Roboto';
 }
 
 .our-team {
-    height: 648px;
     background-color: var(--selection-bg);
+}
+
+.team-section {
+    padding-top: 94px;
+    padding-bottom: 124px;
+}
+
+.we-do {
+    padding-bottom: 94px;
 }
 
 .what-we-do-list {
     margin-top: 0;
-    margin-bottom: 190px;
     list-style: none;
     display: flex;
 }
@@ -298,7 +306,6 @@ font-family: 'Roboto';
 
 .our-team-list {
     margin-top: 0;
-    margin-bottom: 185px;
     list-style: none;
     display: flex;
 }
@@ -312,6 +319,7 @@ font-family: 'Roboto';
 }
 
 .team-names {
+    margin-top: 30px;
     /* font */
     font-style: normal;
         font-weight: 500;
@@ -320,6 +328,7 @@ font-family: 'Roboto';
 }
 
 .team-position {
+    margin-top: 10px;
     /* font */
         font-size: 16px;
         line-height: 1.1px;
@@ -330,6 +339,11 @@ font-family: 'Roboto';
 /* footer bg */
 footer {
     background: var(--primary-bg);
+}
+
+.footer-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footerlogo {
@@ -349,7 +363,6 @@ font-family: 'Raleway';
 }
 
 .footer-address {
-    margin-top: 0;
     margin-bottom: 10px;
     /* font */
     font-style: normal;
@@ -363,7 +376,6 @@ font-family: 'Raleway';
 }
 
 .footer-info {
-    margin-top: 0;
     margin-bottom: 10px;
     /* font */
     font-style: normal;
@@ -385,10 +397,13 @@ font-family: 'Raleway';
 }
 
 /* portfolio */
+.main-portfolio {
+    padding-top: 94px;
+}
+
 .selection-button-list {
     margin-top: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
     list-style: none;
     display: flex;
     justify-content: center;
