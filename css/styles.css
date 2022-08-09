@@ -243,6 +243,7 @@ font-family: 'Roboto';
             background: var(--accent-text);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
+            border: none;
             /* cursor */
             cursor: pointer;
 }
@@ -416,7 +417,7 @@ font-family: 'Raleway';
 }
 
 .button-items {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .button-items:last-child {
@@ -424,6 +425,10 @@ font-family: 'Raleway';
 }
 
 .selection-button {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -435,6 +440,7 @@ font-family: 'Raleway';
         background: var(--filter-buttons);
             border-radius: 4px;
             border-color: var(--filter-buttons);
+            border: none;
             /* cursor */
             cursor: pointer;
 }
@@ -459,6 +465,7 @@ font-family: 'Raleway';
 .selection-box {
     padding-bottom: 20px;
     border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .selection-item {
@@ -478,7 +485,7 @@ font-family: 'Raleway';
 }
 
 .selection-title {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 4px;
     margin-left: 24px;
     /* font */
