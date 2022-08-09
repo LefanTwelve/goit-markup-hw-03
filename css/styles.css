@@ -195,19 +195,18 @@ font-family: 'Roboto';
 
 /* bg */
 .hero {
-    height: 600px;
     background: var(--primary-bg);
 }
 
-.hero-content {
-    text-align: center;
+.hero-box {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-section-title {
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    margin-left: 200px;
+    padding-left: auto;
+    padding-right: auto;
     /* font */
     width: 696px;
         font-weight: 900;
@@ -215,12 +214,15 @@ font-family: 'Roboto';
         line-height: 1.36; 
         letter-spacing: 0.06em;
         text-transform: uppercase;
+        text-align: center;
         /* color */
         color: var(--header-bg); 
 }
 
 .bg-section-button {
-    margin-top: 0;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 450px;
     /* font */
     width: 136px;
         height: 30px;
@@ -320,6 +322,7 @@ font-family: 'Roboto';
 
 .team-names {
     margin-top: 30px;
+    margin-bottom: 10px;
     /* font */
     font-style: normal;
         font-weight: 500;
@@ -328,7 +331,7 @@ font-family: 'Roboto';
 }
 
 .team-position {
-    margin-top: 10px;
+    display: inline-block;
     /* font */
         font-size: 16px;
         line-height: 1.1px;
@@ -347,6 +350,7 @@ footer {
 }
 
 .footerlogo {
+    display: inline-block;
     margin-bottom: 20px;
 font-family: 'Raleway';
     font-style: normal;
@@ -363,6 +367,7 @@ font-family: 'Raleway';
 }
 
 .footer-address {
+    display: inline-block;
     margin-bottom: 10px;
     /* font */
     font-style: normal;
@@ -376,6 +381,7 @@ font-family: 'Raleway';
 }
 
 .footer-info {
+    display: inline-block;
     margin-bottom: 10px;
     /* font */
     font-style: normal;
@@ -450,6 +456,11 @@ font-family: 'Raleway';
     flex-wrap: wrap;
 }
 
+.selection-box {
+    padding-bottom: 20px;
+    border: 1px solid #EEEEEE;
+}
+
 .selection-item {
     margin-right: 30px;
 }
@@ -458,9 +469,18 @@ font-family: 'Raleway';
     margin-right: 0;
 }
 
+.selection-item + .selection-item {
+    margin-bottom: 30px;
+}
+
+.selection-item:last-child {
+    margin-bottom: 94px;
+}
+
 .selection-title {
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 4px;
+    margin-left: 24px;
     /* font */
         font-size: 18px;
         line-height: 2;
@@ -468,8 +488,7 @@ font-family: 'Raleway';
 }
 
 .selection-description {
-    margin-top: 0;
-    margin-bottom: 50px;
+    margin-left: 24px;
     /* font */
         font-size: 16px;
         line-height: 30px;
