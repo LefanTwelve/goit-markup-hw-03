@@ -77,6 +77,15 @@ address {
     margin-right: auto;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-padding-killer {
+    padding-bottom: 0px;
+}
+
 .section-title {
     margin-top: 0px;
     margin-bottom: 50px;
@@ -246,7 +255,6 @@ font-family: 'Roboto';
 }
 
 .site-benefits-list { 
-    padding-top: 94px;
     list-style: none;
     display: flex;
 }
@@ -270,7 +278,6 @@ font-family: 'Roboto';
 
 .benefits-text {
     margin-top: 0;
-    margin-bottom: 115px;
     /* font */
             line-height: 1.7;
         /* color */
@@ -279,15 +286,6 @@ font-family: 'Roboto';
 
 .our-team {
     background-color: var(--selection-bg);
-}
-
-.team-section {
-    padding-top: 94px;
-    padding-bottom: 124px;
-}
-
-.we-do {
-    padding-bottom: 94px;
 }
 
 .what-we-do-list {
