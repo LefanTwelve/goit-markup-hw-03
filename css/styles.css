@@ -82,16 +82,20 @@ address {
     padding-bottom: 94px;
 }
 
-.section-padding-killer {
+.bottom-padding-killer {
     padding-bottom: 0px;
+}
+
+.top-padding-killer {
+    padding-top: 0;
 }
 
 .section-title {
     margin-top: 0px;
     margin-bottom: 50px;
-        font-size: 36px;
-        line-height: 1.16px;
-        text-align: center;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 .visually-hidden {
@@ -210,9 +214,10 @@ font-family: 'Roboto';
 }
 
 .hero-section-title {
-    margin-left: 200px;
-    padding-left: auto;
-    padding-right: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
     /* font */
     width: 696px;
         font-weight: 900;
@@ -226,9 +231,9 @@ font-family: 'Roboto';
 }
 
 .bg-section-button {
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     /* font */
     width: 136px;
         height: 30px;
@@ -487,10 +492,6 @@ font-family: 'Raleway';
 
 .selection-item + .selection-item {
     margin-bottom: 30px;
-}
-
-.selection-item:last-child {
-    margin-bottom: 94px;
 }
 
 .selection-title {
