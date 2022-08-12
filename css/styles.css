@@ -180,12 +180,11 @@ display: block;
 }
 
 .contacts-item {
-margin-right: 50px;
-}
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
-.contact-icons {
-    width: 16px;
-    height: 12px;
 }
 
 .contacts-item:last-child {
@@ -245,27 +244,42 @@ font-family: 'Roboto';
     margin-right: auto;
     /* font */
     width: 136px;
-        height: 30px;
-        left: 732px;
-        top: 440px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: 0.06em;
-        /* color */
-        color: #FFFFFF;
-        /* button box */
-        width: 200px;
-            height: 50px;
-            left: 700px;
-            top: 430px;
-        /* color */
-            background: var(--accent-text);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
-            border: none;
-            /* cursor */
-            cursor: pointer;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    /* color */
+    color: #FFFFFF;
+    /* button box */
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    /* color */
+    background: var(--accent-text);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    /* cursor */
+    cursor: pointer;
+}
+
+.icons-flex {
+    display: flex;
+    gap: 30px;
+}
+
+.icons-box {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: var(--selection-bg);
 }
 
 .site-benefits-list { 
