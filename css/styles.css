@@ -287,10 +287,11 @@ margin-right: 50px;
 }
 
 .icons-box {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
     background-color: var(--selection-bg);
@@ -299,10 +300,7 @@ margin-right: 50px;
 .site-benefits-list { 
     list-style: none;
     display: flex;
-}
-
-.benefits-item {
-    margin-right: 30px;
+    gap: 30px;
 }
 
 .benefits-item:last-child {
@@ -625,8 +623,8 @@ font-family: 'Raleway';
     border-top: none;
 }
 
-.selection-item:hover,
-.selection-item:focus {
+.selection-link:hover,
+.selection-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
                 0px 4px 4px rgba(0, 0, 0, 0.06),
                 1px 4px 6px rgba(0, 0, 0, 0.16);
