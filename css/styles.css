@@ -424,13 +424,11 @@ margin-right: 50px;
 }
 
 .customers-box {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 170px;
     height: 92px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 40px;
     box-sizing: border-box;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
@@ -438,6 +436,7 @@ margin-right: 50px;
 }
 
 .company-icons {
+    display: block;
     fill: var(--icon-color);
 } 
 
@@ -621,6 +620,10 @@ font-family: 'Raleway';
     padding-bottom: 20px;
     border: 1px solid #EEEEEE;
     border-top: none;
+}
+
+.selection-link {
+    display: block;
 }
 
 .selection-link:hover,
