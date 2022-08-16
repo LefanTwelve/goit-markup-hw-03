@@ -432,7 +432,6 @@ margin-right: 50px;
     box-sizing: border-box;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
-    justify-content: center;
 }
 
 .company-icons {
@@ -440,11 +439,14 @@ margin-right: 50px;
     fill: var(--icon-color);
 } 
 
+.customers-box:hover .company-icons {
+    fill: var(--accent-text);
+} 
+
 .customers-box:hover,
 .customers-box:focus,
 .company-icons:hover,
 .company-icons:focus {
-    fill: var(--accent-text);
     border-color: var(--accent-text);
 }
 
