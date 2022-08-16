@@ -439,7 +439,8 @@ margin-right: 50px;
     fill: var(--icon-color);
 } 
 
-.customers-box:hover .company-icons {
+.customers-box:hover .company-icons,
+.customers-box:focus .company-icons {
     fill: var(--accent-text);
 } 
 
@@ -448,6 +449,7 @@ margin-right: 50px;
 .company-icons:hover,
 .company-icons:focus {
     border-color: var(--accent-text);
+    fill: var(--accent-text);
 }
 
 /* footer bg */
